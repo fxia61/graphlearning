@@ -1,3 +1,165 @@
 <!DOCTYPE html>
 
-<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Overview | Graph Learning</title><link href="style.css" rel="stylesheet"/><script defer="" src="site.js"></script><script>window.MathJax={tex:{tags:'ams'},options:{enableMenu:false}}</script><script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script></head><body><aside class="sidebar"><a class="brand" href="index.html">Graph Learning</a><p class="sub">A comprehensive survey</p><div class="searchwrap" style="position:relative"><input aria-label="Search chapters" class="search" id="search" placeholder="Search chapters…"/><div class="results" hidden="" id="results"></div></div><nav class="nav"><a class="navitem" href="index.html">Overview</a><a class="navitem" href="chapter-1.html"><span>01</span>Introduction</a><a class="navitem" href="chapter-2.html"><span>02</span>Scalable Graph Learning</a><a class="navitem" href="chapter-3.html"><span>03</span>Temporal Graph Learning</a><a class="navitem" href="chapter-4.html"><span>04</span>Multimodal Graph Learning</a><a class="navitem" href="chapter-5.html"><span>05</span>Generative Graph Learning</a><a class="navitem" href="chapter-6.html"><span>06</span>Explainable Graph Learning</a><a class="navitem" href="chapter-7.html"><span>07</span>Responsible Graph Learning</a><a class="navitem" href="chapter-8.html"><span>08</span>Emerging Topics</a><a class="navitem" href="chapter-9.html"><span>09</span>Conclusion</a><a class="navitem" href="references.html">References</a></nav></aside><main class="main"><div class="eyebrow">Graph Learning · Research survey</div><h1>Graph Learning</h1><div class="hero"><p class="eyebrow">Long-form research survey</p><h2>Explore the foundations and frontiers of graph learning</h2><p>Scalable, temporal, multimodal, generative, explainable, and responsible graph learning.</p><a class="button" href="chapter-1.html">Read the survey →</a></div><h2>Abstract</h2><p>Graph learning has rapidly evolved into a critical subfield of machine learning and artificial intelligence (AI), enabling the modeling of complex relational data that arises in domains such as social networks, biology, finance, transportation, and knowledge representation. Its development began with early graph-theoretic methods, gaining significant momentum with the advent of graph neural networks (GNNs). Over the past decade, progress in scalable architectures, dynamic graph modeling, multimodal learning, generative AI, explainable AI (XAI), and responsible AI has broadened the applicability of graph learning to various challenging environments. Graph learning is significant due to its ability to model complex, non-Euclidean relationships that traditional machine learning struggles to capture, thus better supporting real-world applications ranging from drug discovery and fraud detection to recommender systems and scientific reasoning. However, challenges like scalability, generalization, heterogeneity, interpretability, and trustworthiness must be addressed to unlock its full potential. This survey provides a comprehensive introduction to graph learning, focusing on key dimensions including scalable, temporal, multimodal, generative, explainable, and responsible graph learning. We review state-of-the-art techniques for efficiently handling large-scale graphs, capturing dynamic temporal dependencies, integrating heterogeneous data modalities, generating novel graph samples, and enhancing interpretability to foster trust and transparency. We also explore ethical considerations, such as privacy and fairness, to ensure responsible deployment of graph learning models. Additionally, we identify and discuss emerging topics, highlighting recent integration of graph learning and other AI paradigms and offering insights into future directions. This survey serves as a valuable resource for researchers and practitioners seeking to navigate the rapidly evolving landscape of graph learning.</p><h2>Contents</h2><ol><li><a href="chapter-1.html">Introduction</a></li><li><a href="chapter-2.html">Scalable Graph Learning</a></li><li><a href="chapter-3.html">Temporal Graph Learning</a></li><li><a href="chapter-4.html">Multimodal Graph Learning</a></li><li><a href="chapter-5.html">Generative Graph Learning</a></li><li><a href="chapter-6.html">Explainable Graph Learning</a></li><li><a href="chapter-7.html">Responsible Graph Learning</a></li><li><a href="chapter-8.html">Emerging Topics</a></li><li><a href="chapter-9.html">Conclusion</a></li></ol></main><aside class="right"><h4>On this page</h4><p class="muted">Explore the chapters using the navigation.</p></aside></body></html>
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Overview | Graph Learning</title><link href="style.css" rel="stylesheet"/><script defer="" src="site.js"></script><script>window.MathJax={tex:{tags:'ams'},options:{enableMenu:false}}</script><script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script></head><body><aside class="sidebar"><a class="brand" href="index.html">Graph Learning</a><p class="sub">A comprehensive survey</p><div class="searchwrap" style="position:relative"><input aria-label="Search chapters" class="search" id="search" placeholder="Search chapters…"/><div class="results" hidden="" id="results"></div></div><nav class="nav"><a class="navitem" href="index.html">Overview</a><a class="navitem" href="chapter-1.html"><span>01</span>Introduction</a><a class="navitem" href="chapter-2.html"><span>02</span>Scalable Graph Learning</a><a class="navitem" href="chapter-3.html"><span>03</span>Temporal Graph Learning</a><a class="navitem" href="chapter-4.html"><span>04</span>Multimodal Graph Learning</a><a class="navitem" href="chapter-5.html"><span>05</span>Generative Graph Learning</a><a class="navitem" href="chapter-6.html"><span>06</span>Explainable Graph Learning</a><a class="navitem" href="chapter-7.html"><span>07</span>Responsible Graph Learning</a><a class="navitem" href="chapter-8.html"><span>08</span>Emerging Topics</a><a class="navitem" href="chapter-9.html"><span>09</span>Conclusion</a><a class="navitem" href="references.html">References</a></nav></aside><main class="main"><div class="eyebrow">Graph Learning · Research survey</div><h1>Graph Learning</h1><div class="hero"><p class="eyebrow">Long-form research survey</p><h2>Explore the foundations and frontiers of graph learning</h2><p>Scalable, temporal, multimodal, generative, explainable, and responsible graph learning.</p><a class="button" href="chapter-1.html">Read the survey →</a></div><h2>Abstract</h2><p>Graph learning has rapidly evolved into a critical subfield of machine learning and artificial intelligence (AI), enabling the modeling of complex relational data that arises in domains such as social networks, biology, finance, transportation, and knowledge representation. Its development began with early graph-theoretic methods, gaining significant momentum with the advent of graph neural networks (GNNs). Over the past decade, progress in scalable architectures, dynamic graph modeling, multimodal learning, generative AI, explainable AI (XAI), and responsible AI has broadened the applicability of graph learning to various challenging environments. Graph learning is significant due to its ability to model complex, non-Euclidean relationships that traditional machine learning struggles to capture, thus better supporting real-world applications ranging from drug discovery and fraud detection to recommender systems and scientific reasoning. However, challenges like scalability, generalization, heterogeneity, interpretability, and trustworthiness must be addressed to unlock its full potential. This survey provides a comprehensive introduction to graph learning, focusing on key dimensions including scalable, temporal, multimodal, generative, explainable, and responsible graph learning. We review state-of-the-art techniques for efficiently handling large-scale graphs, capturing dynamic temporal dependencies, integrating heterogeneous data modalities, generating novel graph samples, and enhancing interpretability to foster trust and transparency. We also explore ethical considerations, such as privacy and fairness, to ensure responsible deployment of graph learning models. Additionally, we identify and discuss emerging topics, highlighting recent integration of graph learning and other AI paradigms and offering insights into future directions. This survey serves as a valuable resource for researchers and practitioners seeking to navigate the rapidly evolving landscape of graph learning.</p>
+
+<p><span lang=EN style='font-family:"Segoe UI",sans-serif;color:#20283A;
+mso-ansi-language:EN'><o:p>&nbsp;</o:p></span></p>
+
+<p><b><span lang=EN style='font-family:"Segoe UI",sans-serif;color:#156082;
+mso-themecolor:accent1;mso-ansi-language:EN'>The entire paper in PDF is on <a
+href="https://arxiv.org/pdf/2507.05636">arXiv:2507.05636</a>. Each section in
+PDF can be downloaded separately below. <o:p></o:p></span></b></p>
+
+<p><b><span lang=EN style='font-family:"Segoe UI",sans-serif;color:#156082;
+mso-themecolor:accent1;mso-ansi-language:EN'><a href="Graph_Learning_TOC.pdf">Table
+of Contents (in PDF)</a><o:p></o:p></span></b></p>
+
+<h2><span lang=EN style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#20283A;mso-ansi-language:EN'>Contents</span><span
+lang=EN-US style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#20283A;mso-ansi-language:EN-US'><o:p></o:p></span></h2>
+
+<ol start=1 type=1>
+ <li class=MsoNormal style='color:#20283A;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><span lang=EN
+     style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
+     mso-ansi-language:EN'><a href="chapter-1.html">Introduction</a></span><span
+     lang=EN style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     等线;mso-ansi-language:EN'> <span style='mso-spacerun:yes'> </span>[<a
+     href="1_Introduction.pdf">PDF</a>]</span><span lang=EN style='font-family:
+     "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
+     mso-ansi-language:EN'><o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#20283A;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><span lang=EN
+     style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
+     mso-ansi-language:EN'><a href="chapter-2.html">Scalable Graph Learning</a></span><span
+     lang=EN style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     等线;mso-ansi-language:EN'> <span style='mso-spacerun:yes'> </span>[<a
+     href="2_Scalable_Graph_Learning.pdf">PDF</a>]</span><span lang=EN
+     style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
+     mso-ansi-language:EN'><o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#20283A;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><span lang=EN
+     style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
+     mso-ansi-language:EN'><a href="chapter-3.html">Temporal Graph Learning</a></span><span
+     lang=EN style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     等线;mso-ansi-language:EN'> <span style='mso-spacerun:yes'> </span>[<a
+     href="3_Temporal_Graph_Learning.pdf">PDF</a>]</span><span lang=EN
+     style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
+     mso-ansi-language:EN'><o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#20283A;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><span lang=EN
+     style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
+     mso-ansi-language:EN'><a href="chapter-4.html">Multimodal Graph Learning</a></span><span
+     lang=EN style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     等线;mso-ansi-language:EN'> <span style='mso-spacerun:yes'> </span>[<a
+     href="4_Multimodal_Graph_Learning.pdf">PDF</a>]</span><span lang=EN
+     style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
+     mso-ansi-language:EN'><o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#20283A;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><span lang=EN
+     style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
+     mso-ansi-language:EN'><a href="chapter-5.html">Generative Graph Learning</a></span><span
+     lang=EN style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     等线;mso-ansi-language:EN'> <span style='mso-spacerun:yes'> </span>[<a
+     href="5_Generative_Graph_Learning.pdf">PDF</a>]</span><span lang=EN
+     style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
+     mso-ansi-language:EN'><o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#20283A;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><span lang=EN
+     style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
+     mso-ansi-language:EN'><a href="chapter-6.html">Explainable Graph Learning</a></span><span
+     lang=EN style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     等线;mso-ansi-language:EN'> <span style='mso-spacerun:yes'> </span>[<a
+     href="6_Explainable_Graph_Learning.pdf">PDF</a>]</span><span lang=EN
+     style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
+     mso-ansi-language:EN'><o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#20283A;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><span lang=EN
+     style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
+     mso-ansi-language:EN'><a href="chapter-7.html">Responsible Graph Learning</a></span><span
+     lang=EN style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     等线;mso-ansi-language:EN'> <span style='mso-spacerun:yes'> </span>[<a
+     href="7_Responsible_Graph_Learning.pdf">PDF</a>]</span><span lang=EN
+     style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
+     mso-ansi-language:EN'><o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#20283A;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><span lang=EN
+     style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
+     mso-ansi-language:EN'><a href="chapter-8.html">Emerging Topics</a></span><span
+     lang=EN style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     等线;mso-ansi-language:EN'> <span style='mso-spacerun:yes'> </span>[<a
+     href="8_Emerging_Topics.pdf">PDF</a>]</span><span lang=EN
+     style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
+     mso-ansi-language:EN'><o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#20283A;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><span lang=EN
+     style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
+     mso-ansi-language:EN'><a href="chapter-9.html">Conclusion</a></span><span
+     lang=EN style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     等线;mso-ansi-language:EN'> <span style='mso-spacerun:yes'> </span>[<a
+     href="9_Conclusion.pdf">PDF</a>]</span><span lang=EN style='font-family:
+     "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
+     mso-ansi-language:EN'><o:p></o:p></span></li>
+</ol>
+
+<p><a href="Graph_Learning_References.pdf"><span
+lang=EN style='font-family:"Segoe UI",sans-serif;mso-ansi-language:EN'>References
+(in PDF)<o:p></o:p></span></a></p>
+
+<h2><span lang=EN style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#20283A;mso-ansi-language:EN'>Publication Information</span></h2>
+
+<p><span lang=EN style='font-family:"Segoe UI",sans-serif;color:#20283A;
+mso-ansi-language:EN'><a href="https://www.xia.ai/">Feng Xia</a>, <span class=SpellE>Ciyuan</span> Peng, Jing
+Ren, Falih Gozi <span class=SpellE>Febrinanto</span>, <span class=SpellE>Renqiang</span>
+Luo, Vidya Saikrishna, <a
+href="https://www.shuo-yu.com/">Shuo Yu</a>, <span class=SpellE>Xiangjie</span> Kong. Graph
+Learning, <i>Foundations and Trends in Signal Processing</i>: Vol. 19: No. 4,
+pp: 362-519, 2025. <a href="https://doi.org/10.1561/2000000137">https://doi.org/10.1561/2000000137</a><o:p></o:p></span></p>
+
+
+<h2><span lang=EN style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+等线;color:#20283A;mso-ansi-language:EN'>Citing the Survey/Paper</span><span lang=EN
+style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
+color:#20283A;mso-ansi-language:EN'><o:p></o:p></span></h2>
+
+<p><span style='font-family:"Segoe UI",sans-serif;color:#20283A'>@<span
+class=GramE>article{</span>GraphLearningXia2025,<br>
+<span style='mso-spacerun:yes'>    </span>author = {Xia, Feng and Peng, <span
+class=SpellE>Ciyuan</span> and Ren, Jing and <span class=SpellE>Febrinanto</span>,
+Falih Gozi and Luo, <span class=SpellE>Renqiang</span> and Saikrishna, Vidya
+and Yu, Shuo and Kong, <span class=SpellE>Xiangjie</span>},<br>
+<span style='mso-spacerun:yes'>    </span>title = {Graph learning},<br>
+<span style='mso-spacerun:yes'>    </span>journal = {Foundations and Trends in
+Signal Processing},<br>
+<span style='mso-spacerun:yes'>    </span>volume = {19},<br>
+<span style='mso-spacerun:yes'>    </span>number = {4},<br>
+<span style='mso-spacerun:yes'>    </span>pages = {362-519},<br>
+<span style='mso-spacerun:yes'>    </span>year = {2025},<br>
+<span style='mso-spacerun:yes'>    </span>month = {11},<br>
+<span style='mso-spacerun:yes'>    </span><span class=SpellE>doi</span> =
+{10.1561/2000000137},<br>
+<span style='mso-spacerun:yes'>    </span><span class=SpellE>url</span> =
+{https://doi.org/10.1561/2000000137}<br>
+}<o:p></o:p></span></p>
+
+<p><span style='font-family:"Segoe UI",sans-serif;color:#20283A'>[<a
+href="Graph_Learning.bib">download the <span class=SpellE>BibTex</span> file</a>]<o:p></o:p></span></p>
+
+
+<h2><span lang=EN style='font-family:
+"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";color:#20283A;
+mso-ansi-language:EN'>Disclaimer<o:p></o:p></span></h2>
+
+<p><span lang=EN style='font-family:"Segoe UI",sans-serif;color:#20283A;
+mso-ansi-language:EN'>All pages of this website were (initially) generated by
+ChatGPT and may contain errors. This version of the survey paper is free to view and
+download for personal use only. Not for re-distribution, re-sale or use in
+derivative works. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='mso-ansi-language:EN'><o:p>&nbsp;</o:p></span></p>
+
+</main>
+
+<aside class="right"><h4>On this page</h4><p class="muted">Explore the chapters using the navigation.</p></aside></body></html>
